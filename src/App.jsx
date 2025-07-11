@@ -8,7 +8,7 @@ const App =()=>{
     
     <>
 
-    <BrowserRouter basename="/Resume"> {Resume}
+    <BrowserRouter basename="/resume-generator"> {Resume}
     <Routes>
       <Route index element={<Form/>}/>
       <Route path="/resume" element={<Resume/>}/>
